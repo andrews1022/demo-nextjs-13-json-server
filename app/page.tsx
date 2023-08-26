@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const Home = () => {
+const HomePage = () => {
   return (
     <main>
       <h2>Dashboard</h2>
@@ -41,4 +41,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default HomePage;

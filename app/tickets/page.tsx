@@ -1,6 +1,6 @@
 import TicketList from "./TicketList";
 
-const Tickets = async () => {
+const TicketsPage = async () => {
   return (
     <main>
       <nav>
@@ -18,4 +18,4 @@ const Tickets = async () => {
   );
 };
 
-export default Tickets;
+export default TicketsPage;
