@@ -1,6 +1,7 @@
+import { Suspense } from "react";
 import TicketList from "./TicketList";
 
-const TicketsPage = async () => {
+const TicketsPage = () => {
   return (
     <main>
       <nav>
@@ -12,8 +13,10 @@ const TicketsPage = async () => {
         </div>
       </nav>
 
-      {/* @ts-expect-error Async Server Component */}
-      <TicketList />
+      <Suspense fallback={<p>Loading tickets...</p>}>
+        {/* @ts-expect-error Async Server Component */}
+        <TicketList />
+      </Suspense>
     </main>
   );
 };
