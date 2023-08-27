@@ -20,6 +20,20 @@
       "priority": "high",
       "title": "Fix the footer links",
       "user_email": "peach@netninja.dev"
+    },
+    {
+      "title": "New Ticket",
+      "body": "New ticket body here wooo",
+      "priority": "medium",
+      "user_email": "mario@netninja.dev",
+      "id": "OG5pRAV"
+    },
+    {
+      "title": "testing res.ok",
+      "body": "hi ooh",
+      "priority": "low",
+      "user_email": "mario@netninja.dev",
+      "id": "Ah0XCOI"
     }
   ]
 }
